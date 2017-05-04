@@ -1,6 +1,8 @@
 html{
   padding: 0 !important;
   margin: 0 !important;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h3 {
@@ -71,11 +73,12 @@ iframe{
   color:#575042;
   background-color: rgb(250, 196, 78);
   border-color: rgb(250, 196, 78);
+  transition: all 0.3s ease 0s;
 }
 
 .my-button:hover {
   background-color: #ffffff;
-  color:rgb(250, 196, 78);;
+  color:rgb(250, 196, 78);
 }
 
 /*Media queries here*/
@@ -95,5 +98,10 @@ iframe{
 @media only screen and (max-width: 320px){
   .carousel-caption {
     height: 87% !important;
+  }
+}
+@media only screen and (max-width: 320px){
+  .carousel-caption {
+    height: 90% !important;
   }
 }
