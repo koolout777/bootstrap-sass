@@ -68,9 +68,20 @@ iframe{
   width: 69.5% !important; 
   height: 411px !important;
 }
+/*client comments*/
+.client-comments {
+  font-style: italic;
+}
+/*headings*/
+.sub-heading {
+  font-style: italic;
+  color: #adadad;
+}
 .how-we-do {
   font-weight: bold;
 }
+/*heading ends*/
+
 /* carousel */
 #quote-carousel 
 {
@@ -141,9 +152,9 @@ iframe{
 div.my-fluid-container {
   background-color:  #d3d3d3 !important;
   border-top: 1px solid #d3d3d3;
-    -webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.3);
-    -moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.3);
-    box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.3);
+  -webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.3);
+  box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.3);
 }
 .my-button {
   font-weight: 700;
@@ -209,5 +220,11 @@ div.my-fluid-container {
 @media (max-width: 768px) {
     .navbar-toggle{
     background: #000 !important;
+  }
+}
+@media (max-width: 320px) {
+  #btn-small {
+   
+    padding: 10px;
   }
 }
